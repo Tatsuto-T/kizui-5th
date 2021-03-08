@@ -1,0 +1,331 @@
+body {
+  font-family: "Nato Serif", 'Noto Serif JP', serif;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.section-inner {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 130px;
+}
+
+.fa-instagram {
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header {
+  width: 100%;
+  vertical-align: middle;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transform: .3s;
+          transform: .3s;
+}
+
+.header-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-inner-title {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.header-inner .header-nav .header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-inner .header-nav .header-list .header-item {
+  padding-left: 25px;
+}
+
+.fixed {
+  position: fixed;
+  background-color: whitesmoke;
+  width: 100%;
+  -webkit-transform: .3s;
+          transform: .3s;
+}
+
+.fv {
+  height: 100vh;
+  min-height: 550px;
+  position: relative;
+  background-image: url("../img/pexels-henry-&-co-2341290.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.fv .fv-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1000px;
+  padding: 0 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.fv .fv-inner .fv-left {
+  letter-spacing: 3px;
+}
+
+.fv .fv-inner .fv-left .fv-title {
+  font-size: 30px;
+  padding-bottom: 8px;
+}
+
+.fv .fv-inner .fv-left .fv-title span {
+  font-size: 15px;
+}
+
+.fv .fv-inner .fv-left .fv-contents {
+  line-height: 50px;
+}
+
+.fv .fv-inner .fv-left .fv-contents .fv-time {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fv .fv-inner .fv-left .fv-contents .fv-date {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fv .fv-inner .fv-right .fv-right-img {
+  width: 300px;
+  height: 300px;
+}
+
+.concept {
+  padding-bottom: 100px;
+}
+
+.concept-inner .concept-title {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.concept-inner .concept-discription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.concept-inner .concept-discription .concept-brand {
+  color: white;
+  background-image: url("../img/67496733_2654341741459579_6871684335550345512_n.jpeg");
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 350px;
+  border: 1px solid black;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.concept-inner .concept-discription .concept-brand .brand-title {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.concept-inner .concept-discription .concept-brand .brand-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.concept-inner .concept-discription .concept-brand .brand-profile .person-img {
+  width: 100px;
+  height: 100px;
+}
+
+.concept-inner .concept-discription .concept-brand .brand-profile .person-img img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.concept-inner .concept-discription .concept-brand .brand-profile .brand-sns {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 30px;
+}
+
+.concept-inner .concept-discription .concept-brand .brand-profile .brand-sns .twitter-icon .fa-twitter {
+  color: #00acee;
+}
+
+.concept-inner .concept-discription .concept-brand .brand-profile .brand-sns .instagram-icon {
+  padding-left: 50%;
+}
+
+.concept-inner .concept-discription .concept-brand .brand-profile .brand-sns .instagram-icon .fa-instagram {
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.concept-inner .concept-discription .concept-brand .brand-text {
+  padding-top: 18px;
+  color: black;
+}
+
+.map {
+  background-image: url("../img/rental03-1024x724.jpeg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.map-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.map-inner .map-title {
+  text-align: center;
+}
+
+.map-inner .map-discription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 50px;
+}
+
+.map-inner .map-discription-left {
+  line-height: 30px;
+  letter-spacing: 3px;
+  padding-top: 10%;
+}
+
+.map-inner .map-discription-left .map-name {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.map-inner .map-discription-left .google-map {
+  text-align: center;
+}
+
+.contact {
+  background-image: url("../img/pexels-tim-mossholder-1439226.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.contact .contact-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact .contact-inner .contact-title {
+  padding-bottom: 30px;
+  color: white;
+}
+
+.contact .contact-inner .contact-discription {
+  color: white;
+}
+
+.contact .contact-inner .contact-discription .contact-text {
+  padding-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+.contact .contact-inner .contact-discription .sns-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50px;
+}
+
+.contact .contact-inner .contact-discription .sns-icons .twitter-icon {
+  padding-right: 5%;
+}
+
+.contact .contact-inner .contact-discription .sns-icons .fa-twitter {
+  color: #00acee;
+  padding-right: 20%;
+}
+
+.contact .contact-inner .contact-discription .sns-icons .instagram-icon {
+  padding-left: 5%;
+}
+
+.contact .contact-inner .contact-discription .sns-icons .fa-instagram {
+  color: palevioletred;
+  padding-left: 5%;
+}
+/*# sourceMappingURL=style.css.map */
