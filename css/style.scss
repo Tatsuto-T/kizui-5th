@@ -1,6 +1,7 @@
 body{
     font-family: "Nato Serif", 'Noto Serif JP', serif;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 img{
@@ -55,7 +56,7 @@ a{
         width: 80%;
         align-items: center;
         margin: 0 auto;
-        padding: 15px;
+        padding: 20px;
         justify-content: space-between;
         &-title{
             font-style: italic;
@@ -79,6 +80,10 @@ a{
     background-color:whitesmoke;
     width: 100%;
     transform: .3s;
+}
+
+.burger-btn{
+    display: none;
 }
 // FV=--------------------------------------------
 .fv{
@@ -104,6 +109,7 @@ a{
         bottom: 0;
         left: 0;
         margin: auto;
+        padding: 0 20px;
 
         .fv-left{
             letter-spacing: 3px;
@@ -151,7 +157,7 @@ a{
 .concept{
     padding-bottom: 100px;
     &-inner{
-
+        padding: 0 20px;
         .concept-title{
             text-align: center;
             padding-bottom: 80px;
@@ -162,7 +168,7 @@ a{
             justify-content: space-between;
 
             .concept-brand{
-                color: white;
+                color: black;
                 background-image: url("../img/67496733_2654341741459579_6871684335550345512_n.jpeg");
                 background-color:rgba(255,255,255,0.8);
                 background-blend-mode:lighten;
@@ -176,6 +182,8 @@ a{
                 .brand-title{
                     padding-top: 10px;
                     text-align: center;
+                    color: black;
+                    padding-bottom: 10px;
                 }
 
                 .brand-profile{
@@ -200,19 +208,12 @@ a{
                         .twitter-icon{
 
                             .fa-twitter{
-                                color: #00acee;;
+                                color: #00acee;
                             }
                         }
 
                         .instagram-icon{
                             padding-left: 50%;
-
-                            .fa-instagram{
-                                background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%);//背景色にグラデーションを指定
-                                    -webkit-background-clip: text;//テキストでくり抜く
-                                    -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示
-                            }
-
                         }
 
                     }
@@ -222,11 +223,20 @@ a{
                     padding-top: 18px;
                     color: black;
                 }
+
+
             }
         }
     }
 }
 
+#share{
+    background-image: url("../img/pexels-dids-4951277.jpeg");
+    background-position: center;
+    background-size: contain;
+
+
+}
 // MAP-------------------------------------------------------------
 .map{
     background-image: url("../img/rental03-1024x724.jpeg");
@@ -236,6 +246,7 @@ a{
     &-inner{
         max-width: 1000px;
         margin: 0 auto;
+        padding: 0 20px;
         .map-title{
             text-align: center;
         }
@@ -246,6 +257,7 @@ a{
             padding-top: 50px;
 
             &-left{
+                width: 40%;
                 line-height: 30px;
                 letter-spacing: 3px;
                 padding-top: 10%;
@@ -253,9 +265,23 @@ a{
                     font-size: 30px;
                     padding-bottom: 20px;
                 }
+            }
+
+            &-right{
+                position: relative;
+                width: 60%;
 
                 .google-map{
-                    text-align: center;
+                    height: 0;
+                    padding-top:75%;
+
+                    .google-map-iframe{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
             }
         }
@@ -312,4 +338,14 @@ a{
         }
     }
 }
-// 2
+
+// footer----------------------------------
+.footer{
+    background-color: black;
+    text-align: center;
+    small{
+        color: white;
+        text-align: center;
+        line-height: 50px;
+    }
+}
