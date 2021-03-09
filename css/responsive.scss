@@ -1,0 +1,51 @@
+@media screen and (max-width:768px){
+
+
+    // HEADER----------------------------------------------
+    .header{
+        &-inner{
+            padding-left: 4vw;
+            padding-right: 4vw;
+
+            .header-nav{
+                display: none;
+            }
+
+            .burger-btn{
+                display: block;
+                position: absolute;
+                // top: 0;
+                right: 4vw;
+            }
+
+            .burger-btn .bar{
+                display: block;
+                height: 3px;
+                width: 30px;
+                background-color: black;
+            }
+
+            .bar-top,
+            .bar-mid{
+                margin-bottom: 8px;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -52,8 +52,11 @@ a{
 
 
     &-inner{
+        padding: 0 20px;
         display: flex;
-        width: 80%;
+        // width: 80%;
+        max-width: 1000px;
+        width: 100%;
         align-items: center;
         margin: 0 auto;
         padding: 20px;
@@ -72,6 +75,10 @@ a{
                 }
             }
         }
+
+        .burger-btn{
+            display: none;
+        }
     }
 }
 
@@ -82,9 +89,7 @@ a{
     transform: .3s;
 }
 
-.burger-btn{
-    display: none;
-}
+
 // FV=--------------------------------------------
 .fv{
     height: 100vh;

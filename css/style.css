@@ -50,10 +50,12 @@ a {
 }
 
 .header-inner {
+  padding: 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
+  max-width: 1000px;
+  width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -79,16 +81,16 @@ a {
   padding-left: 25px;
 }
 
+.header-inner .burger-btn {
+  display: none;
+}
+
 .fixed {
   position: fixed;
   background-color: whitesmoke;
   width: 100%;
   -webkit-transform: .3s;
           transform: .3s;
-}
-
-.burger-btn {
-  display: none;
 }
 
 .fv {
