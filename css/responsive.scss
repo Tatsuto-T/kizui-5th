@@ -32,6 +32,83 @@
         }
     }
 
+    // FV--------------------------
+    .fv{
+        &-inner{
+            background-image: url("../img/154770206_776366579925732_3287881624628034762_n.jpeg");
+            background-position: center;
+            background-size: contain;
+            background-blend-mode:lighten;
+            background-color:rgba(255,255,255,0.8);
+
+
+            .fv-left{
+
+            }
+
+            .fv-right{
+                display: none;
+            }
+        }
+    }
+
+    .concept{
+        &-inner{
+            padding: 0 4vw;
+        }
+
+        .concept-discription{
+            display: block;
+
+            .concept-brand{
+                width: 100%;
+
+                .brand-title{
+                    font-size: 25px;
+                    font-style: italic;
+                }
+
+                .brand-profile{
+
+                    .brand-sns{
+                        font-size: 40px;
+                        justify-content: space-between;
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+
+    // MAP-----------------------------------
+    .map{
+
+        &-inner{
+            padding: 0 4vw;
+
+
+            .map-discription{
+                display: block;
+
+                &-left{
+                    width: 100%;
+                    text-align: center;
+                    padding-bottom: 50px;
+                }
+
+                &-right{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .contact{
+
+        .contact-inner{
+            padding: 0 4vw;
+        }
+    }
 
 
 
@@ -43,9 +120,6 @@
 
 
 
-
-
-
-
-
+    .only-responsivebr{
+        display: block;    }
 }

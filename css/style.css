@@ -369,4 +369,8 @@ a {
   text-align: center;
   line-height: 50px;
 }
+
+.only-responsivebr {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
