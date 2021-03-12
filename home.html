@@ -15,7 +15,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header class="header fixedClass">
         <div class="header-inner">
             <div class="header-inner-title">
                 <a href="#fv"><h2>Kizui U</h2></a>
@@ -28,13 +28,33 @@
                     <li class="header-item"><a href="https://kizui.theshop.jp/" class="">Shop & Items</a></li>
                 </ul>
             </nav>
+            <!-- <nav class="header-nav-res">
+                <ul class="header-nav-res-list">
+                    <li class="hedaer-nav-res-list-items">Brand</li>
+                    <li class="hedaer-nav-res-list-items">Brand</li>
+                    <li class="hedaer-nav-res-list-items">Brand</li>
+                </ul>
+            </nav> -->
+            <div class="bglayer"></div>
             <button class="burger-btn">
                 <span class="bar bar-top"></span>
                 <span class="bar bar-mid"></span>
                 <span class="bar bar-bot"></span>
             </button>
+            <nav class="header-nav-res">
+                <ul class="header-nav-res-list">
+                    <li class="header-nav-res-list-items"><a href="#brand" class="">Brand</a></li>
+                    <li class="header-nav-res-list-items"><a href="#map" class="">Map</a></li>
+                    <li class="header-nav-res-list-items"><a href="#contact" class="">Contact</a></li>
+                    <li class="header-nav-res-list-items"><a href="https://kizui.theshop.jp/" class="">Shop & Items</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
+
+
+
+
     <main>
         <section class="fv" id="fv">
             <div class="fv-inner" data-aos="zoom-out" data-aos-duration="3000">
@@ -44,10 +64,10 @@
                         <!-- <p class="fv-subtitle">5th POP UP STORE</p> -->
                         <p class="fv-discription">3 Brand Collaboration shop</p>
                         <p class="fv-time">Time 12:00 ~ 20:30</p>
-                        <div class="fv-date">Day 4/13.Tue → 4/19.Mon for 1 week</div>
+                        <div class="fv-date">Day 4/13.Tue → 4/19.Mon <br class="only-responsivebr">for 1 week</div>
                         <div class="fv-place">
                             <div class="fv-place-name"> At: WHITE SPACE ONE 赤坂</div>
-                            <a href="#!" class="fv-place-button">MAP</a>
+                            <a href="#map" class="fv-place-button">MAP</a>
                         </div>
                     </div>
 
@@ -170,7 +190,7 @@
 
 
         <!-- </secition> -->
-        <section class="contact" id="contact" data-aos="fade-up" data-aos-duration="1500">
+        <section class="contact" id="contact" data-aos="" data-aos-duration="500">
             <div class="contact-inner">
                 <div class="contact-title title">CONTACT</div>
                 <div class="contact-discription">

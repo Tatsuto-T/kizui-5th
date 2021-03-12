@@ -2,6 +2,8 @@
   .header-inner {
     padding-left: 4vw;
     padding-right: 4vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .header-inner .header-nav {
     display: none;
@@ -10,16 +12,76 @@
     display: block;
     position: absolute;
     right: 4vw;
+    z-index: 13;
+    -webkit-transition: all .5s;
+    transition: all .5s;
   }
   .header-inner .burger-btn .bar {
     display: block;
     height: 3px;
     width: 30px;
     background-color: black;
+    -webkit-transition: all .5s;
+    transition: all .5s;
   }
   .header-inner .bar-top,
   .header-inner .bar-mid {
     margin-bottom: 8px;
+  }
+  .header-inner .burger-btn.close .bar-top {
+    -webkit-transform: rotate(45deg) translate(8px, 8px);
+            transform: rotate(45deg) translate(8px, 8px);
+    border-color: white;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    background-color: white;
+  }
+  .header-inner .burger-btn.close .bar-mid {
+    opacity: 0;
+    -webkit-transition: all opacity .3s;
+    transition: all opacity .3s;
+    border-color: white;
+  }
+  .header-inner .burger-btn.close .bar-bot {
+    -webkit-transform: rotate(-45deg) translate(8px, -8px);
+            transform: rotate(-45deg) translate(8px, -8px);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    border-color: white;
+    background-color: white;
+  }
+  .header .header-nav-res {
+    display: block;
+    background-image: url("../img/pexels-skylar-kang-6044224.jpg");
+    background-size: cover;
+    background-position: 10%, 0;
+    height: 100vh;
+    width: 60%;
+    margin: 0 0 0 auto;
+    padding: 0;
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: white;
+    right: -60%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .header .header-nav-res-list {
+    padding-top: 30px;
+    padding-left: 10vw;
+  }
+  .header .header-nav-res-list-items {
+    line-height: 5;
+  }
+  .header .header-nav-res-list-items a {
+    color: white;
+  }
+  .header-nav-res.active {
+    right: 0 !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
   }
   .fv-inner {
     background-image: url("../img/154770206_776366579925732_3287881624628034762_n.jpeg");
@@ -27,6 +89,7 @@
     background-size: contain;
     background-blend-mode: lighten;
     background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 30px;
   }
   .fv-inner .fv-right {
     display: none;
@@ -39,6 +102,8 @@
   }
   .concept .concept-discription .concept-brand {
     width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .concept .concept-discription .concept-brand .brand-title {
     font-size: 25px;
@@ -54,6 +119,9 @@
   .map-inner {
     padding: 0 4vw;
   }
+  .map-inner .map-title {
+    font-size: 25px;
+  }
   .map-inner .map-discription {
     display: block;
   }
@@ -61,12 +129,16 @@
     width: 100%;
     text-align: center;
     padding-bottom: 50px;
+    font-weight: bold;
   }
   .map-inner .map-discription-right {
     width: 100%;
   }
   .contact .contact-inner {
     padding: 0 4vw;
+  }
+  footer {
+    font-size: 50%;
   }
   .only-responsivebr {
     display: block;

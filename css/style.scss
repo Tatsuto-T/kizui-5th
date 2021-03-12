@@ -43,15 +43,16 @@ a{
     width: 100%;
     vertical-align: middle;
     // background-color: gray;
-    z-index:1 ;
+    z-index: 3;
     position: absolute;
     top: 0;
     left: 0;
     box-sizing: border-box;
-    transform: .3s;
+    transition: .5s;
 
 
     &-inner{
+        transition: .5s;
         padding: 0 20px;
         display: flex;
         // width: 80%;
@@ -62,6 +63,7 @@ a{
         padding: 20px;
         justify-content: space-between;
         &-title{
+            transition: .5s;
             font-style: italic;
             font-size: 20px;
         }
@@ -76,8 +78,13 @@ a{
             }
         }
 
+        .header-nav-res{
+            display: none;
+        }
+
         .burger-btn{
             display: none;
+            z-index: 15;
         }
     }
 }
@@ -86,9 +93,24 @@ a{
     position: fixed;
     background-color:whitesmoke;
     width: 100%;
-    transform: .3s;
+    transition: .5s;
 }
 
+.header-active{
+    background-color: none !important;
+}
+
+.bglayer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: #000;
+    opacity: 0.3;
+    z-index: 3;
+}
 
 // FV=--------------------------------------------
 .fv{
@@ -98,8 +120,6 @@ a{
     background-image: url("../img/pexels-henry-&-co-2341290.jpg");
     background-position: center;
     background-size: cover;
-
-
 
     .fv-inner{
         display: flex;
@@ -145,6 +165,18 @@ a{
                     &-name{
 
                     }
+
+                    .fv-place-button{
+                        border: 1px solid black;
+                        padding: 8px 15px;
+                        box-shadow: 2px 2px 4px gray;
+                        transition: .3s;
+
+                        &:hover{
+                            opacity: .3;
+                            transition: .3s;
+                        }
+                    }
                 }
             }
         }
@@ -160,12 +192,16 @@ a{
 
 // CONCEPT----------------------------------------------
 .concept{
+    background-image: url("../img/pexels-nataliya-vaitkevich-4641825.jpg");
+    background-size: cover;
+    background-position: center;
     padding-bottom: 100px;
     &-inner{
         padding: 0 20px;
         .concept-title{
             text-align: center;
             padding-bottom: 80px;
+
         }
 
         .concept-discription{
@@ -238,7 +274,7 @@ a{
 #share{
     background-image: url("../img/pexels-dids-4951277.jpeg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 
 
 }
@@ -296,14 +332,20 @@ a{
 
 // CONTACT----------------------------------------------------
 .contact{
-    background-image: url("../img/pexels-tim-mossholder-1439226.jpg");
-    background-position: center;
-    background-size: cover;
+    // background-image: url("../img/pexels-pixabay-459486.jpg");
+    background-image: url("../img/pexels-skylar-kang-6044973.jpg");
+    background-position: (65%,0%);
+    // background-size: cover
+    background-blend-mode:color-burn;
     text-align: center;
     padding-bottom: 100px;
+    position: relative;
+
+
     .contact-inner{
         max-width: 1000px;
         margin: 0 auto;
+
 
         .contact-title{
             padding-bottom: 30px;
@@ -357,4 +399,13 @@ a{
 
 .only-responsivebr{
     display: none;
+}
+
+// js追加クラスーーーーーーーーーーーーーーーーーーーーーーー
+.open{
+    display: block;
+}
+
+.header-active{
+    background-color: none !important;
 }
