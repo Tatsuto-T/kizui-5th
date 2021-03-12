@@ -130,6 +130,7 @@
     text-align: center;
     padding-bottom: 50px;
     font-weight: bold;
+    padding-top: 9%;
   }
   .map-inner .map-discription-right {
     width: 100%;
@@ -142,6 +143,12 @@
   }
   .only-responsivebr {
     display: block;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .fv {
+    margin-top: 30px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

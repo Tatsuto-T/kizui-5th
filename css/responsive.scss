@@ -170,6 +170,7 @@
                     text-align: center;
                     padding-bottom: 50px;
                     font-weight: bold;
+                    padding-top: 9%;
                 }
 
                 &-right{
@@ -201,5 +202,12 @@
 
 
     .only-responsivebr{
-        display: block;    }
+        display: block;
+    }
+}
+
+@media screen and (max-width:375px){
+    .fv{
+        margin-top: 30px;
+    }
 }
