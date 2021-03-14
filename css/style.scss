@@ -110,6 +110,11 @@ a{
     background: #000;
     opacity: 0.3;
     z-index: 3;
+    transition: 0.3s;
+}
+
+.bglayer.open{
+    transition: 0.3s;
 }
 
 // FV=--------------------------------------------
@@ -330,6 +335,65 @@ a{
     }
 }
 
+.shop{
+    background-image: url("../img/FireShot Capture 003 - kizui shop（キズイショップ） 古着・古着リメイクブランドSHOP - kizui.theshop.jp.png");
+    background-position: center;
+    background-color:rgb(221, 221, 221);
+    background-size:cover;
+
+    background-blend-mode: lighten;
+    padding-bottom: 100px;
+    background-position: 50% 10%;
+
+    .shop-inner{
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+        text-align: center;
+
+        .shop-title{
+            padding-bottom: 80px;
+        }
+
+        .shop-discription{
+            // display: flex;
+            // justify-content: space-between;
+            // text-align: left;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: left;
+            &-left{
+                padding-bottom: 50px;
+                letter-spacing: 3px;
+                a{
+                    border: solid;
+                }
+            }
+
+            &-right{
+                p{
+                    padding: 20px;
+                    border:1px solid;
+                    text-align: center;
+                    border-radius: 3px;
+                    background-color: white;
+                    box-shadow: 2px 2px 4px gray;
+
+                    &:hover{
+                        color: white;
+                        background-color: gray;
+                        transition: .3s;
+                        box-shadow: 2px 2px 4px white;
+                    }
+                }
+            }
+        }
+
+
+
+    }
+}
+
 // CONTACT----------------------------------------------------
 .contact{
     // background-image: url("../img/pexels-pixabay-459486.jpg");
@@ -397,7 +461,13 @@ a{
     }
 }
 
+
+// レスポンシブオンリーーーーーーーーーーーーーーーーーーーーー
 .only-responsivebr{
+    display: none;
+}
+
+.only-responsivebr-375{
     display: none;
 }
 

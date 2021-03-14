@@ -59,7 +59,7 @@
         .header-nav-res{
             display: block;
             // background-image: url("../img/pexels-scott-webb-2117938.jpg");
-            background-image: url("../img/pexels-skylar-kang-6044224.jpg");
+            background-image: url("../img/mathias-p-r-reding-3GwOfh-VMgQ-unsplash.jpg");
             background-size: cover;
             // background-position: center;
             background-position: (10%,0);
@@ -159,11 +159,12 @@
             padding: 0 4vw;
 
             .map-title{
-                font-size: 25px;
+                font-size: 35px;
             }
 
             .map-discription{
                 display: block;
+                font-size: 15px;
 
                 &-left{
                     width: 100%;
@@ -175,6 +176,16 @@
 
                 &-right{
                     width: 100%;
+                }
+            }
+        }
+    }
+
+    .shop{
+        &-inner{
+            .shop-discription{
+                &-left{
+                    font-size: 15px;
                 }
             }
         }
@@ -209,5 +220,9 @@
 @media screen and (max-width:375px){
     .fv{
         margin-top: 30px;
+    }
+
+    .only-responsivebr-375{
+        display: block;
     }
 }

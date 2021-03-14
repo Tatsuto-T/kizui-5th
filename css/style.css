@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Nato Serif", 'Noto Serif JP', serif;
   margin: 0 auto;
@@ -116,6 +117,13 @@ a {
   background: #000;
   opacity: 0.3;
   z-index: 3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.bglayer.open {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .fv {
@@ -347,6 +355,61 @@ a {
   height: 100%;
 }
 
+.shop {
+  background-image: url("../img/FireShot Capture 003 - kizui shop（キズイショップ） 古着・古着リメイクブランドSHOP - kizui.theshop.jp.png");
+  background-position: center;
+  background-color: #dddddd;
+  background-size: cover;
+  background-blend-mode: lighten;
+  padding-bottom: 100px;
+  background-position: 50% 10%;
+}
+
+.shop .shop-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.shop .shop-inner .shop-title {
+  padding-bottom: 80px;
+}
+
+.shop .shop-inner .shop-discription {
+  font-size: 20px;
+  line-height: 50px;
+  text-align: left;
+}
+
+.shop .shop-inner .shop-discription-left {
+  padding-bottom: 50px;
+  letter-spacing: 3px;
+}
+
+.shop .shop-inner .shop-discription-left a {
+  border: solid;
+}
+
+.shop .shop-inner .shop-discription-right p {
+  padding: 20px;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 3px;
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 4px gray;
+          box-shadow: 2px 2px 4px gray;
+}
+
+.shop .shop-inner .shop-discription-right p:hover {
+  color: white;
+  background-color: gray;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-shadow: 2px 2px 4px white;
+          box-shadow: 2px 2px 4px white;
+}
+
 .contact {
   background-image: url("../img/pexels-skylar-kang-6044973.jpg");
   background-position: 65%, 0%;
@@ -415,6 +478,10 @@ a {
 }
 
 .only-responsivebr {
+  display: none;
+}
+
+.only-responsivebr-375 {
   display: none;
 }
 

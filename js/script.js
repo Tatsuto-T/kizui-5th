@@ -23,7 +23,7 @@ $(function (){
     var fvHeight = $fv.outerHeight();
     var fixedClass = "fixed";
 
-        // $win.on("load scroll", function(){
+        // $win.on("load scroll", function(){s
         //     var value = $(this).scrollTop();
         //     if($win.width() > 768){
         //         if( value > fvHeight){
@@ -77,7 +77,6 @@ $(function(){
 });
 
 // $(document).click(function() {　$('.header-nav-res').hide();　});
-
 // $(document).click(function(event) {
 //     if(!$(event.target).closest('.header-nav-res').length) {
 //         $(".burger-btn").removeClass("close");
