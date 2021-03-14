@@ -485,6 +485,10 @@ a {
   display: none;
 }
 
+.only-responsivebr-500 {
+  display: none;
+}
+
 .open {
   display: block;
 }

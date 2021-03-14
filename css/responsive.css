@@ -150,6 +150,12 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .only-responsivebr-500 {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .fv {
     margin-top: 30px;
