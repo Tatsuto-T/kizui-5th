@@ -217,9 +217,13 @@
     }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     .only-responsivebr-500{
         display: block;
+    }
+
+    .shop-discription{
+        // text-align: center !important;
     }
 }
 
