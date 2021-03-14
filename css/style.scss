@@ -66,6 +66,12 @@ a{
             transition: .5s;
             font-style: italic;
             font-size: 20px;
+
+            img{
+                height: 35px;
+                width: auto;
+                vertical-align: middle;
+            }
         }
 
         .header-nav{
