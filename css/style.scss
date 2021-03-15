@@ -405,8 +405,9 @@ a{
     // background-image: url("../img/pexels-pixabay-459486.jpg");
     background-image: url("../img/pexels-skylar-kang-6044973.jpg");
     background-position: (65%,0%);
+    background-color: #545454;
     // background-size: cover
-    background-blend-mode:color-burn;
+    background-blend-mode:hard-light;
     text-align: center;
     padding-bottom: 100px;
     position: relative;
