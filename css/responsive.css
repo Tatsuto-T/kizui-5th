@@ -2,8 +2,6 @@
   .header-inner {
     padding-left: 4vw;
     padding-right: 4vw;
-    padding-top: 15px;
-    padding-bottom: 15px;
   }
   .header-inner .header-nav {
     display: none;
@@ -100,12 +98,29 @@
     padding: 0 4vw;
   }
   .concept .concept-discription {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
   }
   .concept .concept-discription .concept-brand {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
   }
   .concept .concept-discription .concept-brand .brand-title {
     font-size: 25px;

@@ -60,7 +60,8 @@ a{
         width: 100%;
         align-items: center;
         margin: 0 auto;
-        padding: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
         justify-content: space-between;
         &-title{
             transition: .5s;
@@ -68,7 +69,7 @@ a{
             font-size: 20px;
 
             img{
-                height: 35px;
+                height: 80px;
                 width: auto;
                 vertical-align: middle;
             }
@@ -221,16 +222,19 @@ a{
 
             .concept-brand{
                 color: black;
-                background-image: url("../img/67496733_2654341741459579_6871684335550345512_n.jpeg");
+                background-image: url("../img/Kizui_regular_imgs/kizui斜め(新オリジナル)5.png");
                 background-color:rgba(255,255,255,0.8);
                 background-blend-mode:lighten;
-                background-size: cover;
+                background-size: contain;
                 background-position: center;
                 width: 30%;
-                height: 350px;
+                // height: 370px;
+                align-self: stretch;
                 border: 1px solid black;
                 padding-left: 2%;
                 padding-right: 2%;
+                padding-top: 10px;
+                padding-bottom: 40px;
                 .brand-title{
                     padding-top: 10px;
                     text-align: center;
@@ -249,6 +253,7 @@ a{
                         img{
                             border-radius: 50%;
                             object-fit: cover;
+                            box-shadow: black;
                         }
                     }
 
@@ -274,6 +279,10 @@ a{
                 .brand-text{
                     padding-top: 18px;
                     color: black;
+                    letter-spacing: 3px;
+                    line-height: 30px;
+                    font-weight: bold;
+
                 }
 
 
@@ -283,11 +292,15 @@ a{
 }
 
 #share{
-    background-image: url("../img/pexels-dids-4951277.jpeg");
+    background-image: url("../img/Kizui_regular_imgs/IMG_9426.PNG");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+}
 
-
+#kushira{
+    background-image: url("../img/Kizui_regular_imgs/kushira.png");
+    background-position: center;
+    background-size: contain;
 }
 // MAP-------------------------------------------------------------
 .map{
@@ -403,11 +416,13 @@ a{
 // CONTACT----------------------------------------------------
 .contact{
     // background-image: url("../img/pexels-pixabay-459486.jpg");
-    background-image: url("../img/pexels-skylar-kang-6044973.jpg");
-    background-position: (65%,0%);
+    background-image: url("../img/bg-imgs/brian-patrick-tagalog-6ODCOyHt944-unsplash.jpg");
+    // background-position: (65%,0%);
     background-color: #545454;
     // background-size: cover
     background-blend-mode:hard-light;
+    background-position: (10%,0%);
+    background-size: cover;
     text-align: center;
     padding-bottom: 100px;
     position: relative;

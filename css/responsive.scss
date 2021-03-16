@@ -6,8 +6,6 @@
         &-inner{
             padding-left: 4vw;
             padding-right: 4vw;
-            padding-top: 15px;
-            padding-bottom: 15px;
 
             .header-nav{
                 display: none;
@@ -126,12 +124,18 @@
         }
 
         .concept-discription{
-            display: block;
+            display: flex;
+            flex-direction: column;
+            align-self: stretch;
+            align-items: stretch;
 
             .concept-brand{
+
                 width: 100%;
                 padding-left: 15px;
                 padding-right: 15px;
+                align-self: stretch;
+                align-items: stretch;
 
                 .brand-title{
                     font-size: 25px;
