@@ -32,7 +32,7 @@ a {
 }
 
 .fa-instagram {
-  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%);
+  background: -webkit-linear-gradient(135deg, #85acff 0%, #f13f79 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -292,6 +292,7 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   font-size: 30px;
+  text-shadow: 4px 4px 4px #a0a0a0;
 }
 
 .concept-inner .concept-discription .concept-brand .brand-profile .brand-sns .twitter-icon .fa-twitter {
@@ -444,6 +445,7 @@ a {
   text-align: center;
   padding-bottom: 100px;
   position: relative;
+  text-shadow: -4px 4px 4px #000;
 }
 
 .contact .contact-inner {
@@ -454,7 +456,6 @@ a {
 .contact .contact-inner .contact-title {
   padding-bottom: 30px;
   color: white;
-  text-shadow: 4px 4px 4px #000;
 }
 
 .contact .contact-inner .contact-discription {
@@ -464,7 +465,6 @@ a {
 .contact .contact-inner .contact-discription .contact-text {
   padding-bottom: 20px;
   letter-spacing: 3px;
-  text-shadow: 4px 4px 4px #000;
 }
 
 .contact .contact-inner .contact-discription .sns-icons {
@@ -475,6 +475,7 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 50px;
+  text-shadow: -4px 4px 4px #525252;
 }
 
 .contact .contact-inner .contact-discription .sns-icons .twitter-icon {
