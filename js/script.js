@@ -15,12 +15,12 @@
     var scroll = new SmoothScroll('a[href*="#"]', {
         header: '#header'
     });
-// スティッキウーヘッダー-----------------------------------
+// スティッキーヘッダー-----------------------------------
 $(function (){
     var $win = $(window)
     var $fv = $(".fv")
     var $header = $(".header")
-    var fvHeight = $fv.outerHeight();
+    var fvHeight = $fv.outerHeight(true);
     var fixedClass = "fixed";
 
         // $win.on("load scroll", function(){s

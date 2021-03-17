@@ -140,6 +140,8 @@ a {
   background-image: url("../img/pexels-henry-&-co-2341290.jpg");
   background-position: center;
   background-size: cover;
+  text-shadow: 4px 4px 4px #000;
+  text-shadow: 4px 4px 20px #000;
 }
 
 .fv .fv-inner {
@@ -407,6 +409,7 @@ a {
 .shop .shop-inner .shop-discription-left {
   padding-bottom: 50px;
   letter-spacing: 3px;
+  text-shadow: 3px 3px 20px #000;
 }
 
 .shop .shop-inner .shop-discription-left a {
@@ -419,8 +422,8 @@ a {
   text-align: center;
   border-radius: 3px;
   background-color: white;
-  -webkit-box-shadow: 2px 2px 4px gray;
-          box-shadow: 2px 2px 4px gray;
+  -webkit-box-shadow: 2px 2px 3px gray;
+          box-shadow: 2px 2px 3px gray;
 }
 
 .shop .shop-inner .shop-discription-right p:hover {
@@ -433,10 +436,10 @@ a {
 }
 
 .contact {
-  background-image: url("../img/bg-imgs/brian-patrick-tagalog-6ODCOyHt944-unsplash.jpg");
-  background-color: #545454;
+  background-image: url("../img/bg-imgs/fernando-lavin-fi5YSQfxbVk-unsplash.jpg");
+  background-color: #8481a7;
+  background-position: top;
   background-blend-mode: hard-light;
-  background-position: 10%, 0%;
   background-size: cover;
   text-align: center;
   padding-bottom: 100px;
@@ -451,6 +454,7 @@ a {
 .contact .contact-inner .contact-title {
   padding-bottom: 30px;
   color: white;
+  text-shadow: 4px 4px 4px #000;
 }
 
 .contact .contact-inner .contact-discription {
@@ -460,6 +464,7 @@ a {
 .contact .contact-inner .contact-discription .contact-text {
   padding-bottom: 20px;
   letter-spacing: 3px;
+  text-shadow: 4px 4px 4px #000;
 }
 
 .contact .contact-inner .contact-discription .sns-icons {

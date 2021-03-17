@@ -132,6 +132,8 @@ a{
     background-image: url("../img/pexels-henry-&-co-2341290.jpg");
     background-position: center;
     background-size: cover;
+    text-shadow: 4px 4px 4px #000;
+    text-shadow: 4px 4px 20px #000;
 
     .fv-inner{
         display: flex;
@@ -381,9 +383,11 @@ a{
             font-size: 20px;
             line-height: 50px;
             text-align: left;
+
             &-left{
                 padding-bottom: 50px;
                 letter-spacing: 3px;
+                text-shadow: 3px 3px 20px #000;
                 a{
                     border: solid;
                 }
@@ -396,7 +400,7 @@ a{
                     text-align: center;
                     border-radius: 3px;
                     background-color: white;
-                    box-shadow: 2px 2px 4px gray;
+                    box-shadow: 2px 2px 3px gray;
 
                     &:hover{
                         color: white;
@@ -416,17 +420,25 @@ a{
 // CONTACT----------------------------------------------------
 .contact{
     // background-image: url("../img/pexels-pixabay-459486.jpg");
-    background-image: url("../img/bg-imgs/brian-patrick-tagalog-6ODCOyHt944-unsplash.jpg");
+    background-image: url("../img/bg-imgs/fernando-lavin-fi5YSQfxbVk-unsplash.jpg");
     // background-position: (65%,0%);
-    background-color: #545454;
-    // background-size: cover
+    background-color: #8481a7;    background-position: top;
     background-blend-mode:hard-light;
-    background-position: (10%,0%);
     background-size: cover;
     text-align: center;
     padding-bottom: 100px;
     position: relative;
 
+    // &::before{
+    //     background: inherit;
+    //     content: "";
+    //     filter: blur(5px);
+    //     position: absolute;
+    //     top: -5px;
+    //     right: -5px;
+    //     bottom: -5px;
+    //     left: -5px;
+    // }
 
     .contact-inner{
         max-width: 1000px;
@@ -436,6 +448,7 @@ a{
         .contact-title{
             padding-bottom: 30px;
             color: white;
+            text-shadow: 4px 4px 4px #000;
         }
 
         .contact-discription{
@@ -443,6 +456,7 @@ a{
             .contact-text{
                 padding-bottom: 20px;
                 letter-spacing: 3px;
+                text-shadow: 4px 4px 4px #000;
             }
 
             .sns-icons{
@@ -471,6 +485,9 @@ a{
         }
     }
 }
+
+
+
 
 // footer----------------------------------
 .footer{
