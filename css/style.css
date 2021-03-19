@@ -323,6 +323,10 @@ a {
   background-size: contain;
 }
 
+#kushira img {
+  zoom: 1.5;
+}
+
 .map {
   background-image: url("../img/rental03-1024x724.jpeg");
   background-position: center;

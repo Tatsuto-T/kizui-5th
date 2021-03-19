@@ -304,6 +304,10 @@ a{
     background-image: url("../img/Kizui_regular_imgs/kushira.png");
     background-position: center;
     background-size: contain;
+
+    img{
+        zoom: 1.5;
+    }
 }
 // MAP-------------------------------------------------------------
 .map{
