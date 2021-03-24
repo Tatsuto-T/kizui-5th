@@ -298,6 +298,14 @@ a{
     background-image: url("../img/Kizui_regular_imgs/IMG_9426.PNG");
     background-position: center;
     background-size: contain;
+
+    .brand-profile{
+        .person-img{
+            img{
+                zoom: 1.4;
+            }
+        }
+    }
 }
 
 #kushira{

@@ -317,6 +317,10 @@ a {
   background-size: contain;
 }
 
+#share .brand-profile .person-img img {
+  zoom: 1.4;
+}
+
 #kushira {
   background-image: url("../img/Kizui_regular_imgs/kushira.png");
   background-position: center;
